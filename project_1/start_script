@@ -1,0 +1,11 @@
+#!/bin/bash
+sudo apt-get update
+sudo apt-get install stress-ng -y
+sudo apt-get install htop -y
+sudo apt-get install python3-pip -y
+pip3 install flask
+sudo apt-get install git -y
+cd /home/ubuntu
+git clone https://github.com/dustinc555/cloud_computing.git
+cd /home/ubuntu/cloud_computing/project_1/
+sudo python3 serve.py
