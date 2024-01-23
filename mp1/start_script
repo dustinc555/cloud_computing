@@ -7,5 +7,5 @@ pip3 install flask
 sudo apt-get install git -y
 cd /home/ubuntu
 git clone https://github.com/dustinc555/cloud_computing.git
-cd /home/ubuntu/cloud_computing/project_1/
+cd /home/ubuntu/cloud_computing/mp1/
 sudo python3 serve.py
