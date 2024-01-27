@@ -4,7 +4,7 @@ import boto3
 from botocore.exceptions import ClientError
 
 dynamodb = boto3.resource("dynamodb")
-table_name = "mp2_table"
+table_name = "mp2_table" # leaving as is really mp3
 table = dynamodb.Table(table_name)
 
 
